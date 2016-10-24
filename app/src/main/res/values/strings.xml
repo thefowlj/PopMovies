@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_share_title">Share</string>
+
+    <string name="mdb_base_url">http://api.themoviedb.org/3/movie/</string>
+    <string name="mdb_api_key_param">api_key</string>
+
+    <string name="mdb_base_image_url">http://image.tmdb.org/t/p/</string>
+    <string name="mdb_image_size_default">w185</string>
+    <string name="mdb_image_size_w342">w342</string>
+    <string name="pref_image_size">image_size</string>
+
+    <string name="mdb_id_results_list">results</string>
+    <string name="mdb_id_poster_path">poster_path</string>
+    <string name="mdb_id_release_date">release_date</string>
+    <string name="mdb_id_title">title</string>
+    <string name="mdb_id_vote_average">vote_average</string>
+    <string name="mdb_id_overview">overview</string>
+    <string name="mdb_id_runtime">runtime</string>
+    <string name="mdb_move_id">id</string>
+
+    <string name="mdb_append_param">append_to_response=</string>
+    <string name="mdb_id_videos">videos</string>
+    <string name="mdb_id_video_type">type</string>
+    <string name="mdb_id_video_key">key</string> <!-- youtube video identifier -->
+    <string name="mdb_id_video_name">name</string>
+    <string name="mdb_id_video_site">site</string>
+    <string name="mdb_video_type_check">Trailer</string>
+    <string name="mdb_video_site_check">YouTube</string>
+    <string name="youtube_base_url">https://youtu.be/</string>
+
+    <string name="mdb_id_reviews">reviews</string>
+
+    <string name="no_internet_message">Internet Connection Unavailable</string>
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <string name="pref_sort_by">sort</string>
+    <string name="pref_title_sort_by">Sort By</string>
+    <string name="pref_summary_sort_by">popularity or ratings</string>
+    <string name="pref_sort_by_default">popular</string>
+    <string name="pref_sort_value_popular">popular</string>
+    <string name="pref_sort_value_top_rated">top_rated</string>
+    <string name="pref_sort_value_favorites">favorites</string>
+    <string-array name="pref_sort_values">
+        <item>@string/pref_sort_value_popular</item>
+        <item>@string/pref_sort_value_top_rated</item>
+        <item>@string/pref_sort_value_favorites</item>
+    </string-array>
+    <string-array name="pref_sort_options">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+        <item>My Favorites</item>
+    </string-array>
+
+    <string name="pref_favorites_string_set">favorites_string_set</string>
+
+    <string name="is_online_runtime_exec">/system/bin/ping -c 1 8.8.8.8</string>
+
+    <string name="base_error_msg">Error </string>
+    <string name="title_activity_detail">Movie Details</string>
+
+    <string name="parcelable_movies_tag">movies</string>
+
+    <string name="content_authority">com.fowlj.popularmovies</string>
+
+    <string name="overview_title">Overview:</string>
+    <string name="trailers_title">Trailers:</string>
+    <string name="reviews_title">Reviews:</string>
+
+    <string name="button_favorite_text">Favorite</string>
+
+    <string name="api_key_tag">API_KEY</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorAccent">#FFAB40</color>
+    <color name="colorFavoriteSelected">#FF9100</color>
+
+    <!-- The 0x7F is hexadecimal for 127, which is approximately half of 255, giving 50% to the
+      alpha channel in the color-->
+    <color name="movieSelected">#7FFF9100</color>
+</resources>
